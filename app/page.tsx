@@ -16,8 +16,16 @@ export default function Home() {
       <main className="min-h-screen flex items-center justify-center bg-slate-100">
         <div className="text-center">
           <h1 className="text-5xl font-bold text-gray-900">
-          <p className="mt-4">
-            We're updating the Schuylkill Model.
+            Under Maintenance
+          </h1>
+          <p className="text-xl mt-4 text-gray-700">
+            We're currently performing maintenance on the Schuylkill Model.
+          </p>
+          <p className="mt-4 text-gray-700">
+            Please check back later for real-time river conditions and safety information.
+          </p>
+          <p className="mt-4 text-gray-700">
+            Thank you for your patience!
           </p>
         </div>
       </main>
