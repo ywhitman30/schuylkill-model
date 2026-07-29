@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import BoatCard from "../components/BoatCard";
 import ConditionsPanel from "../components/ConditionsPanel";
 
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = false; // Set to true to enable maintenance mode
 
 const Map = dynamic(() => import("../components/Map"), {
   ssr: false,
