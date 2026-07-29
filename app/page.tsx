@@ -1,5 +1,26 @@
 'use client';
 
+const MAINTENANCE_MODE = true;
+
+export default function Home() {
+  if (MAINTENANCE_MODE) {
+    return (
+      <main className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-5xl font-bold">🚧 Under Maintenance</h1>
+          <p className="mt-4">
+            We're updating the Schuylkill Model.
+          </p>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    // Your existing website here
+  );
+}
+
 import dynamic from "next/dynamic";
 import BoatCard from "../components/BoatCard";
 import ConditionsPanel from "../components/ConditionsPanel";
