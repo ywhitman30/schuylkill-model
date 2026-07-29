@@ -1,11 +1,19 @@
 'use client';
 
+import dynamic from "next/dynamic";
+import BoatCard from "../components/BoatCard";
+import ConditionsPanel from "../components/ConditionsPanel";
+
 const MAINTENANCE_MODE = true;
+
+const Map = dynamic(() => import("../components/Map"), {
+  ssr: false,
+});
 
 export default function Home() {
   if (MAINTENANCE_MODE) {
     return (
-      <main className="min-h-screen flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center bg-slate-100">
         <div className="text-center">
           <h1 className="text-5xl font-bold">🚧 Under Maintenance</h1>
           <p className="mt-4">
@@ -16,20 +24,6 @@ export default function Home() {
     );
   }
 
-  return (
-  https://schuylkill-model.vercel.app/
-  );
-}
-
-import dynamic from "next/dynamic";
-import BoatCard from "../components/BoatCard";
-import ConditionsPanel from "../components/ConditionsPanel";
-
-const Map = dynamic(() => import("../components/Map"), {
-  ssr: false,
-});
-
-export default function Home() {
   return (
     <main className="min-h-screen bg-slate-100">
       <div className="max-w-6xl mx-auto p-8">
@@ -42,12 +36,10 @@ export default function Home() {
           Interactive river conditions for rowers.
         </p>
 
-        {/* Map */}
         <div className="mt-10">
           <Map />
         </div>
 
-        {/* Boat Suitability */}
         <div className="mt-10">
           <h2 className="text-3xl font-bold text-blue-900 mb-6 text-gray-900">
             Boat Suitability
@@ -96,7 +88,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Current Conditions */}
         <div className="mt-10">
           <ConditionsPanel />
         </div>
