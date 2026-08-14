@@ -1,0 +1,637 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "model-reach",
+        "name": "HEC-RAS modeled reach"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.31382687402863,
+            40.073220614435726
+          ],
+          [
+            -75.31211896777467,
+            40.07204846059863
+          ],
+          [
+            -75.31019451995809,
+            40.070877964860884
+          ],
+          [
+            -75.30805160835172,
+            40.06980827677221
+          ],
+          [
+            -75.30621268702346,
+            40.06927261676591
+          ],
+          [
+            -75.30520889998515,
+            40.06902879544609
+          ],
+          [
+            -75.30409404853498,
+            40.06893318272562
+          ],
+          [
+            -75.30279349535715,
+            40.06894634766136
+          ],
+          [
+            -75.3015595765449,
+            40.0689976529224
+          ],
+          [
+            -75.29869881429455,
+            40.0695589585867
+          ],
+          [
+            -75.2976595670048,
+            40.06981198787002
+          ],
+          [
+            -75.29711537146663,
+            40.069932480575176
+          ],
+          [
+            -75.29511711112659,
+            40.07030082761403
+          ],
+          [
+            -75.29407319872163,
+            40.07068198650156
+          ],
+          [
+            -75.29292836021203,
+            40.071060978306235
+          ],
+          [
+            -75.29201773157688,
+            40.071306101752405
+          ],
+          [
+            -75.29095150979518,
+            40.07154630142776
+          ],
+          [
+            -75.28851259549965,
+            40.07251826671851
+          ],
+          [
+            -75.28718751745872,
+            40.073000385855124
+          ],
+          [
+            -75.28641343320989,
+            40.07317982707014
+          ],
+          [
+            -75.28564144884243,
+            40.07330135516895
+          ],
+          [
+            -75.28464452489855,
+            40.07335090683313
+          ],
+          [
+            -75.28379794559463,
+            40.0733017068889
+          ],
+          [
+            -75.28291325658107,
+            40.073189611017696
+          ],
+          [
+            -75.28225397283715,
+            40.07298924130686
+          ],
+          [
+            -75.28160315737448,
+            40.07255628117794
+          ],
+          [
+            -75.28026739588122,
+            40.071518918866246
+          ],
+          [
+            -75.27920632434426,
+            40.07070469713668
+          ],
+          [
+            -75.27865018676862,
+            40.07038966124872
+          ],
+          [
+            -75.27797417305548,
+            40.069710388187914
+          ],
+          [
+            -75.27715458178552,
+            40.06825528765231
+          ],
+          [
+            -75.2754017457915,
+            40.065920900926365
+          ],
+          [
+            -75.27459484783483,
+            40.064766285430366
+          ],
+          [
+            -75.27358735672526,
+            40.063616193896294
+          ],
+          [
+            -75.27228772352245,
+            40.062703654133
+          ],
+          [
+            -75.27106827857745,
+            40.06180834685369
+          ],
+          [
+            -75.26944777083575,
+            40.06028364956815
+          ],
+          [
+            -75.26669807090629,
+            40.057058585735426
+          ],
+          [
+            -75.26511895172911,
+            40.05507329576227
+          ],
+          [
+            -75.26423111826848,
+            40.05383956783887
+          ],
+          [
+            -75.26206873898136,
+            40.05168231239086
+          ],
+          [
+            -75.26074981370843,
+            40.05026123941144
+          ],
+          [
+            -75.25933977386721,
+            40.048921464506996
+          ],
+          [
+            -75.2580510935494,
+            40.04786932796262
+          ],
+          [
+            -75.25649099466172,
+            40.04685942033356
+          ],
+          [
+            -75.25522542139507,
+            40.04613363077512
+          ],
+          [
+            -75.25395759367309,
+            40.04546984990038
+          ],
+          [
+            -75.25226478015891,
+            40.044284718504414
+          ],
+          [
+            -75.25053795975005,
+            40.04292812204319
+          ],
+          [
+            -75.24921943007276,
+            40.0419993758446
+          ],
+          [
+            -75.24818222452951,
+            40.04110777747947
+          ],
+          [
+            -75.24740386957193,
+            40.04031491758638
+          ],
+          [
+            -75.24705904892443,
+            40.03981082539787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "25086",
+        "max_water_surface_ft": 40.33,
+        "max_channel_velocity_fps": 0.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.31150790190213,
+            40.073899579982736
+          ],
+          [
+            -75.31407888098333,
+            40.07191042644774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "23094",
+        "max_water_surface_ft": 40.16,
+        "max_channel_velocity_fps": 0.66
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.30678959816412,
+            40.07165508897421
+          ],
+          [
+            -75.30751076615937,
+            40.06851149765978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "19585",
+        "max_water_surface_ft": 39.91,
+        "max_channel_velocity_fps": 0.57
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.29578304088587,
+            40.07295700733322
+          ],
+          [
+            -75.29486835468313,
+            40.06949583064092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "17998",
+        "max_water_surface_ft": 39.85,
+        "max_channel_velocity_fps": 0.51
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.2904419033673,
+            40.073764689680424
+          ],
+          [
+            -75.28957800755752,
+            40.07111579748618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "16542",
+        "max_water_surface_ft": 39.8,
+        "max_channel_velocity_fps": 0.47
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.28504025956617,
+            40.074472495948875
+          ],
+          [
+            -75.28499895521374,
+            40.0720870383561
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "15218",
+        "max_water_surface_ft": 39.75,
+        "max_channel_velocity_fps": 0.47
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.2800307137129,
+            40.07319723508447
+          ],
+          [
+            -75.28139808987494,
+            40.0712353726093
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "13932",
+        "max_water_surface_ft": 39.55,
+        "max_channel_velocity_fps": 0.95
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.27680315383749,
+            40.070005744916514
+          ],
+          [
+            -75.27888040833594,
+            40.068759810496154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "12821",
+        "max_water_surface_ft": 39.22,
+        "max_channel_velocity_fps": 0.97
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.27476764878337,
+            40.067036506868504
+          ],
+          [
+            -75.27769284175872,
+            40.066226772635645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "11430",
+        "max_water_surface_ft": 38.89,
+        "max_channel_velocity_fps": 0.72
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.27207216935885,
+            40.06374570659437
+          ],
+          [
+            -75.27555492568194,
+            40.06299721810421
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "9702",
+        "max_water_surface_ft": 38.69,
+        "max_channel_velocity_fps": 0.61
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.2675719019947,
+            40.060821484079966
+          ],
+          [
+            -75.27133739784094,
+            40.05889923344747
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "8176",
+        "max_water_surface_ft": 38.59,
+        "max_channel_velocity_fps": 0.54
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.26395763326178,
+            40.057301665576595
+          ],
+          [
+            -75.26817261229819,
+            40.055770287575385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "7034",
+        "max_water_surface_ft": 38.5,
+        "max_channel_velocity_fps": 0.65
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.26296724298783,
+            40.05416644597766
+          ],
+          [
+            -75.26556084718689,
+            40.05331543363255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "5157",
+        "max_water_surface_ft": 38.36,
+        "max_channel_velocity_fps": 0.57
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.25852292897054,
+            40.05053013658543
+          ],
+          [
+            -75.2612106670427,
+            40.049072825602806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "3870",
+        "max_water_surface_ft": 38.29,
+        "max_channel_velocity_fps": 0.53
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.25542870303923,
+            40.04816197690663
+          ],
+          [
+            -75.25801271893003,
+            40.04639273715026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "2274",
+        "max_water_surface_ft": 38.14,
+        "max_channel_velocity_fps": 0.78
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.2516535560554,
+            40.04513729238238
+          ],
+          [
+            -75.25357273005801,
+            40.043442191507516
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "967",
+        "max_water_surface_ft": 37.91,
+        "max_channel_velocity_fps": 0.89
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.2478045072279,
+            40.04256443267951
+          ],
+          [
+            -75.25048686697933,
+            40.0412510702689
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "cross-section",
+        "river": "Main_Channel_CL",
+        "reach": "Main_Channel",
+        "river_station": "22",
+        "max_water_surface_ft": 37.32,
+        "max_channel_velocity_fps": 1.36
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.24578387843671,
+            40.04014169489517
+          ],
+          [
+            -75.24865125368444,
+            40.03950747324938
+          ]
+        ]
+      }
+    }
+  ]
+}
